@@ -1,4 +1,4 @@
-FROM alpine
+FROM arm32v7/alpine
 
 RUN apk update && apk add --no-cache dumb-init xz tar
 
